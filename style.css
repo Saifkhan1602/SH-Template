@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 20px;
+}
+.Main_Container{
+    background: rgb(230, 228, 228);
+    height: auto;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgb(161, 160, 160), -2px -2px rgb(161, 160, 160);
+    margin:  5px auto;
+    padding:  0 10px 20px 10px;
+}
+.welcm{
+    margin:10px auto;
+    text-align: center;
+    padding:10px 0 20px 0;
+    border-bottom: 2px solid rgb(158, 157, 157);
+}
+.SH{
+    font-size: 30px;
+}
+.smth{
+    color: rgb(61, 133, 198);
+}
+.cstmrs_p{
+    margin: 10px;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(116, 39, 4);
+}
+.qstn{
+    margin: 20px;
+    text-align: center;
+    line-height: 34px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.qna{
+    background-color: rgb(146, 250, 215);
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 2px;
+}
+.qstn h2 span{
+    color: rgb(61, 133, 198);
+}
+.answr{
+    margin: 10px 15px;
+    text-align: center;
+}
+.list{
+    margin: 20px;
+}
+.list p{
+    margin:10px 0 20px 20px;
+    font-size: 25px;
+}
+.list ul{
+    background-color: bisque;
+    border: .1px solid grey;
+    padding:10px 0 5px 30px;
+    border-radius: 12px;
+}
+.list ul li{
+    padding-bottom: 5px;
+}
+.prcs{
+    margin: 10px;
+    text-align: center;
+    color: rgb(117, 15, 78);
+    font-size: 22px;
+}
+.fdbck{
+    margin: 20px 5px;
+    text-align: center;
+    font-size: 21px;
+}
+.mob{
+    font-size: 22px;
+    color: rgb(63, 63, 247);
+}
+.HH{
+    margin: 10px 12px ;
+    font-size: 23px;
+}
+
+@media all and (min-width:320px) and (max-width:480px){
+    body{
+        font-size: 11px;
+    }
+    .Main_Container{
+        width: 90%;
+        border-radius: 6px;
+        margin:  0px auto;
+        padding:  0 5px 10px 5px;
+        box-shadow: 1px 1px rgb(161, 160, 160), -1px -1px rgb(161, 160, 160);
+
+    }
+    .welcm{
+        margin:10px auto;
+        padding:5px 0 10px 0;
+        border-bottom: 1px solid rgb(158, 157, 157);
+        font-size: 12px;
+    }
+    .SH{
+        font-size: 18px;
+    }
+    .cstmrs_p{
+        margin: 9px;
+        font-size: 13px;
+    }
+    .qstn{
+        margin: 8px;
+        text-align: center;
+        line-height: 18px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .qna{
+        border-radius: 8px;
+        margin: 0 7px;
+        padding: 2px;
+    }
+    .answr{
+        margin: 8px;
+        font-size: 12px;
+        text-align: justify;
+    }
+    .list{
+        margin: 10px;
+    }
+    .list p{
+        margin:9px 0 11px 8px;
+        font-size: 12px;
+    }
+    .list ul{
+        padding:5px 0 2px 20px;
+        border-radius: 6px;
+    }
+    .list ul li{
+        padding-bottom: 3px;
+        font-size: 11px;
+    }
+    .prcs{
+        margin: 6px 1px;
+        font-size: 12px;
+    }
+    .fdbck{
+        margin: 10px 2px;
+        text-align: center;
+        font-size: 11px;
+    }
+    .mob{
+        font-size: 11px;
+    }
+    .HH{
+        margin: 5px 6px ;
+        font-size: 12px;
+    }
+}
